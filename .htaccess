@@ -1,0 +1,15 @@
+ Options +FollowSymLinks
+RewriteEngine on
+RewriteBase /orders/
+ 
+ 
+RewriteRule ^$ publico/vista/inicio.php? [L]
+RewriteRule ^city$ publico/vista/city/list.php? [L]
+RewriteRule ^customer$ publico/vista/customer/list.php? [L]
+RewriteRule ^product$ publico/vista/product/list.php? [L]
+RewriteRule ^orders$ publico/vista/orders/list.php? [L]
+ 
+
+
+
+
